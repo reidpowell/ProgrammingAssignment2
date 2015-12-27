@@ -16,14 +16,14 @@ The sections of this document are intended to reflect the evaluation requirement
 Here are the details to indicate the submission meets the assignment's basic requirements.
 
 * https://github.com/reidpowell/ProgrammingAssignment2
-* a658e33e111c39440f0d12e5c7acfa84db3b05c7
+* 9b1c98a4aa702114154f4e1696cd08657e2c79a8
 
 The above meets the assignment's requirement of
 
 1. A valid GitHub URL containing a git repository. Please navigate to the repo by clicking the link.
 2. One commit beyond the original fork. If you view the commits made to master by navigating to https://github.com/reidpowell/ProgrammingAssignment2/commits/master, several commits have been made since the initial fork: 266638b (https://github.com/reidpowell/ProgrammingAssignment2/commit/266638b28e4b7dbdccf1d6fa59ba60171e247ed4)
 3. SHA-1 indicating a specific commit in the GitHub repository. The above is a 40-character SHA-1 value.
-4. SHA-1 corresponds to a specific commit in the repository. To confirm that this corresponsds to a specific commit in the repo, please use that SHA-1 to navigate to the commit with https://github.com/reidpowell/ProgrammingAssignment2/commit/a658e33e111c39440f0d12e5c7acfa84db3b05c7
+4. SHA-1 corresponds to a specific commit in the repository. To confirm that this corresponsds to a specific commit in the repo, please use that SHA-1 to navigate to the commit with https://github.com/reidpowell/ProgrammingAssignment2/commit/9b1c98a4aa702114154f4e1696cd08657e2c79a8
 
 # Detailed Requirements
 Below is a bit more detail about the submission beyond the minimum requirements listed above.
