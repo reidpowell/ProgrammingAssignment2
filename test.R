@@ -17,3 +17,9 @@ start_time <- Sys.time(); temp <- cacheSolve(test_special_matrix); Sys.time() - 
 # getting cached data
 # Time difference of 0.0007619858 secs
 start_time <- Sys.time(); temp <- cacheSolve(test_special_matrix); Sys.time() - start_time;
+
+# matrix comparison function from https://stat.ethz.ch/pipermail/r-help/2012-June/315408.html
+matequal <- function(x, y) is.matrix(x) && is.matrix(y) && dim(x) == dim(y) && all(x == y)
+
+# quick correctness check
+matequal(solve(test_matrix),cacheSolve(test_special_matrix))
