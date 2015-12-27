@@ -43,7 +43,7 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 
         # fetch the inverse from the "special matrix"
-        # if it exsist return it...
+        # if it exsists return it...
         matrixInverse <- x$getInverse()
         if(!is.null(matrixInverse)) {
         	message("getting cached data")
@@ -52,7 +52,7 @@ cacheSolve <- function(x, ...) {
 
         # ...otherwise it does not exist and we must calculate it
         data <- x$get()
-        matrixInverse <- solve(x, ...)
+        matrixInverse <- solve(data)
         x$setInverse(matrixInverse)
         matrixInverse
 }
